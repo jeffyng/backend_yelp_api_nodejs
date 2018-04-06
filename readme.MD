@@ -1,15 +1,24 @@
-To get started:
+# Node.js/Express server 
+> A backend server that retrieves information from Yelp's API and provide a list or summary of information.
 
-1. run 'npm install' to install dependencies
-2. insert your api key in /keys.js
-3. run 'node server/index.js' to start server 
 
-Type either url in browser to view data: 
-1. localhost:3000/list/san-francisco
-2. localhost:3000/summary/san-francisco
-You can change 'san-francisco' to any location
+## Getting Started
+1. Insert your yelp api key in /keys.js file
 
-To run test:
-1. run 'npm test'
+2. Run the following command in terminal:
+```sh
+npm install        
+node server/index.js 
+```
+3. View data in browser using either "/list" endpoint or "/summary" endpoint following the city name
+  a. Example: localhost:3000/list/san-francisco
+  b. Example: localhost:3000/summary/san-francisco
+  c. Example: localhost:3000/list/ANY-US-CITY-NAME
+
+ 
+## To Run Tests:
+```sh
+npm test
+```
 
 
